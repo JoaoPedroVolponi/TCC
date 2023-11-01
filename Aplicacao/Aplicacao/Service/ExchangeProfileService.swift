@@ -13,9 +13,11 @@ enum ServiceError: Error {
 
 class ExchangeProfileService{
     
+    private let apiKey = "748e24c7"
+    
     func getExchange(completion: @escaping (Result<ExchangeGroup, Error>) -> Void) {
         
-        guard let url = URL(string: "https://api.hgbrasil.com/finance?key=748e24c7") else { return }
+        guard let url = URL(string: "https://api.hgbrasil.com/finance?key=\(apiKey)") else { return }
         
         URLSession.shared.dataTask(with: url) { data, _, error in
             DispatchQueue.main.async {
