@@ -26,6 +26,9 @@
 		8173C67F2AF1FFB50031CC33 /* ExchangeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8173C67E2AF1FFB50031CC33 /* ExchangeViewModel.swift */; };
 		8173C6812AF1FFC90031CC33 /* ProtocolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8173C6802AF1FFC90031CC33 /* ProtocolViewModel.swift */; };
 		8173C6832AF200510031CC33 /* ExchangeProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8173C6822AF200510031CC33 /* ExchangeProfileService.swift */; };
+		8173C6852AF200EE0031CC33 /* ExchangeProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8173C6842AF200EE0031CC33 /* ExchangeProfile.swift */; };
+		8173C6872AF200FF0031CC33 /* Exchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8173C6862AF200FF0031CC33 /* Exchange.swift */; };
+		8173C6892AF2010D0031CC33 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8173C6882AF2010D0031CC33 /* Wallet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		8173C67E2AF1FFB50031CC33 /* ExchangeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViewModel.swift; sourceTree = "<group>"; };
 		8173C6802AF1FFC90031CC33 /* ProtocolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolViewModel.swift; sourceTree = "<group>"; };
 		8173C6822AF200510031CC33 /* ExchangeProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeProfileService.swift; sourceTree = "<group>"; };
+		8173C6842AF200EE0031CC33 /* ExchangeProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeProfile.swift; sourceTree = "<group>"; };
+		8173C6862AF200FF0031CC33 /* Exchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exchange.swift; sourceTree = "<group>"; };
+		8173C6882AF2010D0031CC33 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
 		B39E6CE39294DA1081586811 /* Pods-Aplicacao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aplicacao.debug.xcconfig"; path = "Target Support Files/Pods-Aplicacao/Pods-Aplicacao.debug.xcconfig"; sourceTree = "<group>"; };
 		FE388136A5756DF4AE604D74 /* Pods-Aplicacao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aplicacao.release.xcconfig"; path = "Target Support Files/Pods-Aplicacao/Pods-Aplicacao.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +164,9 @@
 		8173C6652AF1F8630031CC33 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8173C6842AF200EE0031CC33 /* ExchangeProfile.swift */,
+				8173C6862AF200FF0031CC33 /* Exchange.swift */,
+				8173C6882AF2010D0031CC33 /* Wallet.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -327,8 +336,10 @@
 				8173C6682AF1F8B60031CC33 /* HomeScreen.swift in Sources */,
 				8173C67D2AF1FDC10031CC33 /* ExchangeScreen.swift in Sources */,
 				8173C66C2AF1F98A0031CC33 /* Coordinator.swift in Sources */,
+				8173C6892AF2010D0031CC33 /* Wallet.swift in Sources */,
 				8173C6512AF1F4180031CC33 /* ViewController.swift in Sources */,
 				8173C64D2AF1F4180031CC33 /* AppDelegate.swift in Sources */,
+				8173C6872AF200FF0031CC33 /* Exchange.swift in Sources */,
 				8173C6732AF1FA070031CC33 /* BuyAndSellViewController.swift in Sources */,
 				8173C66F2AF1F9F00031CC33 /* HomeViewController.swift in Sources */,
 				8173C67B2AF1FD930031CC33 /* BuyAndSellScreen.swift in Sources */,
@@ -337,6 +348,7 @@
 				8173C6762AF1FBF30031CC33 /* ExchangeTableViewCell.swift in Sources */,
 				8173C6792AF1FC100031CC33 /* ExchangeHomeTableViewCellScreen.swift in Sources */,
 				8173C64F2AF1F4180031CC33 /* SceneDelegate.swift in Sources */,
+				8173C6852AF200EE0031CC33 /* ExchangeProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
