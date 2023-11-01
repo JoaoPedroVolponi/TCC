@@ -23,6 +23,8 @@
 		8173C6792AF1FC100031CC33 /* ExchangeHomeTableViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8173C6782AF1FC100031CC33 /* ExchangeHomeTableViewCellScreen.swift */; };
 		8173C67B2AF1FD930031CC33 /* BuyAndSellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8173C67A2AF1FD930031CC33 /* BuyAndSellScreen.swift */; };
 		8173C67D2AF1FDC10031CC33 /* ExchangeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8173C67C2AF1FDC00031CC33 /* ExchangeScreen.swift */; };
+		8173C67F2AF1FFB50031CC33 /* ExchangeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8173C67E2AF1FFB50031CC33 /* ExchangeViewModel.swift */; };
+		8173C6812AF1FFC90031CC33 /* ProtocolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8173C6802AF1FFC90031CC33 /* ProtocolViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		8173C6782AF1FC100031CC33 /* ExchangeHomeTableViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeHomeTableViewCellScreen.swift; sourceTree = "<group>"; };
 		8173C67A2AF1FD930031CC33 /* BuyAndSellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyAndSellScreen.swift; sourceTree = "<group>"; };
 		8173C67C2AF1FDC00031CC33 /* ExchangeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeScreen.swift; sourceTree = "<group>"; };
+		8173C67E2AF1FFB50031CC33 /* ExchangeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViewModel.swift; sourceTree = "<group>"; };
+		8173C6802AF1FFC90031CC33 /* ProtocolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolViewModel.swift; sourceTree = "<group>"; };
 		B39E6CE39294DA1081586811 /* Pods-Aplicacao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aplicacao.debug.xcconfig"; path = "Target Support Files/Pods-Aplicacao/Pods-Aplicacao.debug.xcconfig"; sourceTree = "<group>"; };
 		FE388136A5756DF4AE604D74 /* Pods-Aplicacao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aplicacao.release.xcconfig"; path = "Target Support Files/Pods-Aplicacao/Pods-Aplicacao.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,6 +139,8 @@
 		8173C6632AF1F8510031CC33 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				8173C67E2AF1FFB50031CC33 /* ExchangeViewModel.swift */,
+				8173C6802AF1FFC90031CC33 /* ProtocolViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -313,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8173C66A2AF1F93A0031CC33 /* Logger.swift in Sources */,
+				8173C67F2AF1FFB50031CC33 /* ExchangeViewModel.swift in Sources */,
 				8173C6712AF1F9FD0031CC33 /* ExchangeViewController.swift in Sources */,
 				8173C6682AF1F8B60031CC33 /* HomeScreen.swift in Sources */,
 				8173C67D2AF1FDC10031CC33 /* ExchangeScreen.swift in Sources */,
@@ -322,6 +329,7 @@
 				8173C6732AF1FA070031CC33 /* BuyAndSellViewController.swift in Sources */,
 				8173C66F2AF1F9F00031CC33 /* HomeViewController.swift in Sources */,
 				8173C67B2AF1FD930031CC33 /* BuyAndSellScreen.swift in Sources */,
+				8173C6812AF1FFC90031CC33 /* ProtocolViewModel.swift in Sources */,
 				8173C6762AF1FBF30031CC33 /* ExchangeTableViewCell.swift in Sources */,
 				8173C6792AF1FC100031CC33 /* ExchangeHomeTableViewCellScreen.swift in Sources */,
 				8173C64F2AF1F4180031CC33 /* SceneDelegate.swift in Sources */,
