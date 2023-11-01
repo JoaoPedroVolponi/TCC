@@ -1,14 +1,8 @@
 //
-//  HomeScreen.swift
+//  BuyAndSellViewController.swift
 //  Aplicacao
 //
 //  Created by João PedroVolponi on 01/11/23.
 //
 
 import Foundation
-import UIKit
-
-
-class HomeScreen: UIView {
-    
-}
