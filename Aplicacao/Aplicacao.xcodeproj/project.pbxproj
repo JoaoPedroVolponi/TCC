@@ -138,8 +138,8 @@
 			children = (
 				8173C6672AF1F8B60031CC33 /* HomeScreen.swift */,
 				8173C6742AF1FBD70031CC33 /* tableView */,
-				8173C67A2AF1FD930031CC33 /* BuyAndSellScreen.swift */,
 				8173C67C2AF1FDC00031CC33 /* ExchangeScreen.swift */,
+				8173C67A2AF1FD930031CC33 /* BuyAndSellScreen.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

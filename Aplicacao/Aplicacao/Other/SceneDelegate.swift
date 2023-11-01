@@ -30,6 +30,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window?.rootViewController = navigation
         window?.makeKeyAndVisible()
+        
     }
 }
-
