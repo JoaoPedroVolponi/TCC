@@ -6,6 +6,6 @@ target 'Aplicacao' do
   use_frameworks!
 
   # Pods for Aplicacao
-   pod 'IQKeyboardManagerSwift'
+  #pod 'IQKeyboardManagerSwift'
 
 end

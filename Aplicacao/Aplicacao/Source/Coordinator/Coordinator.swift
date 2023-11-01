@@ -56,6 +56,7 @@ class Coordinator: CoordinatorProtocol {
         
     }
     
+    ///deveria estar aqui ?
     func returnCongratulation(_ sender: UIButton, _ buyAndSell: BuyAndSellViewController, wallet: Wallet, amount: Int, exchange: Exchange){
         
         var returnValueConverted = ""

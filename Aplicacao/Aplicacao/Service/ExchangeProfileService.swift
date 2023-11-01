@@ -17,7 +17,9 @@ class ExchangeProfileService{
     
     func getExchange(completion: @escaping (Result<ExchangeGroup, Error>) -> Void) {
         
-        guard let url = URL(string: "https://api.hgbrasil.com/finance?key=\(apiKey)") else { return }
+        guard let url = URL(string: "https://api.hgbrasil.com/finance?key=\(apiKey)") else {
+            
+         return }
         
         URLSession.shared.dataTask(with: url) { data, _, error in
             DispatchQueue.main.async {

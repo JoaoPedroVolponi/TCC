@@ -53,13 +53,13 @@ class HomeScreen: UIView {
     private func configConstraints() {
         NSLayoutConstraint.activate([
         
-            //TableView
+            //tableView
             self.tableView.topAnchor.constraint(equalTo: self.body.topAnchor),
             self.tableView.leadingAnchor.constraint(equalTo: self.body.leadingAnchor, constant: 20),
             self.tableView.trailingAnchor.constraint(equalTo: self.body.trailingAnchor, constant: -20),
             self.tableView.bottomAnchor.constraint(equalTo: self.body.bottomAnchor),
             
-            //Body
+            //body
             self.body.topAnchor.constraint(equalTo: self.topAnchor),
             self.body.leadingAnchor.constraint(equalTo: self.safeAreaLayoutGuide.leadingAnchor),
             self.body.trailingAnchor.constraint(equalTo: self.safeAreaLayoutGuide.trailingAnchor),
