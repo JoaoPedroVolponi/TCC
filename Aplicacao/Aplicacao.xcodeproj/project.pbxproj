@@ -33,7 +33,7 @@
 
 /* Begin PBXFileReference section */
 		64B6EA9E790DE34D693A8F2C /* Pods_Aplicacao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aplicacao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8173C6492AF1F4180031CC33 /* Aplicacao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aplicacao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8173C6492AF1F4180031CC33 /* TCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8173C64C2AF1F4180031CC33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8173C64E2AF1F4180031CC33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8173C6502AF1F4180031CC33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		8173C64A2AF1F4180031CC33 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8173C6492AF1F4180031CC33 /* Aplicacao.app */,
+				8173C6492AF1F4180031CC33 /* TCC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,9 +219,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8173C6482AF1F4180031CC33 /* Aplicacao */ = {
+		8173C6482AF1F4180031CC33 /* TCC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8173C65D2AF1F41A0031CC33 /* Build configuration list for PBXNativeTarget "Aplicacao" */;
+			buildConfigurationList = 8173C65D2AF1F41A0031CC33 /* Build configuration list for PBXNativeTarget "TCC" */;
 			buildPhases = (
 				4A77D4B1CDFFD47CE7E9C468 /* [CP] Check Pods Manifest.lock */,
 				8173C6452AF1F4180031CC33 /* Sources */,
@@ -232,9 +232,9 @@
 			);
 			dependencies = (
 			);
-			name = Aplicacao;
+			name = TCC;
 			productName = Aplicacao;
-			productReference = 8173C6492AF1F4180031CC33 /* Aplicacao.app */;
+			productReference = 8173C6492AF1F4180031CC33 /* TCC.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -265,7 +265,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8173C6482AF1F4180031CC33 /* Aplicacao */,
+				8173C6482AF1F4180031CC33 /* TCC */,
 			);
 		};
 /* End PBXProject section */
@@ -537,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8173C65D2AF1F41A0031CC33 /* Build configuration list for PBXNativeTarget "Aplicacao" */ = {
+		8173C65D2AF1F41A0031CC33 /* Build configuration list for PBXNativeTarget "TCC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8173C65E2AF1F41A0031CC33 /* Debug */,
