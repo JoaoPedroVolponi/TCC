@@ -1,4 +1,4 @@
-r# TCC - Moedas
+# TCC - Moedas
 
 ## 📒 Sobre
 <p align="center">Aplicativo que lista moedas e simula compra e venda.</p>
