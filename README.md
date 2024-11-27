@@ -18,7 +18,7 @@
 
 |       🍏       |              SplashScreen               |              Home               | Exchange                           | BuyAndSell                            |
 | :------------: | :----------------------------------------: | :---------------------------------------: | -------------------------------------- | ------------------------------------- |
-| Telas | <img src="https://github.com/JoaoPedroVolponi/Assets/blob/main/tcc-moedas/splashScreen.png" width="210px;" height="380" /> | <img src="https://github.com/JoaoPedroVolponi/Assets/blob/main/tcc-moedas/home.png" width="210px;" height="380" /> | <img src="https://github.com/JoaoPedroVolponi/Assets/blob/main/tcc-moedas/exchange.png" width="220px;" height="380" /> | <img src="https://github.com/JoaoPedroVolponi/Assets/blob/main/tcc-moedas/buyAndSell.png" width="220px;" height="380" />
+| Telas | <img src="https://github.com/JoaoPedroVolponi/Assets/blob/main/swift/tcc-moedas/splashScreen.png" width="210px;" height="380" /> | <img src="https://github.com/JoaoPedroVolponi/Assets/blob/main/swift/tcc-moedas/home.png" width="210px;" height="380" /> | <img src="https://github.com/JoaoPedroVolponi/Assets/blob/main/swift/tcc-moedas/exchange.png" width="220px;" height="380" /> | <img src="https://github.com/JoaoPedroVolponi/Assets/blob/main/swift/tcc-moedas/buyAndSell.png" width="220px;" height="380" />
 
 ## ✨ Autor
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
